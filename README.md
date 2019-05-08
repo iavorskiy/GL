@@ -66,7 +66,7 @@ docker build -t gl .<br/>
 **Run**
 -----------------------------------
 
-docker run --pid=host --volume /:/host  metrics mem<br/>
-docker run --pid=host --volume /:/host  metrics cpu<br/>
+docker run --pid=host --volume /:/host  gl mem<br/>
+docker run --pid=host --volume /:/host  gl cpu<br/>
 
 

@@ -61,7 +61,7 @@ For run a script as a docker container you need to build image from Docker file.
 
 git clone https://github.com/iavorskiy/GL.git<br/>
 cd GL<br/>
-docker build -t GL .<br/>
+docker build -t gl .<br/>
 
 **Run**
 -----------------------------------

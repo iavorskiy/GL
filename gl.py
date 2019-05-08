@@ -10,7 +10,7 @@ try:
     if param == 'cpu':
         metrics = dict(psutil.cpu_times()._asdict())
         for k, v in metrics.items():
-            print('system.cpu.' + ' ' + k, v)
+            print('system.cpu.' + k, v)
     elif param == 'mem':
         metrics = dict(psutil.virtual_memory()._asdict()) 
         for k, v in metrics.items():

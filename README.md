@@ -70,6 +70,3 @@ docker run --pid=host --volume /:/host  metrics mem<br/>
 docker run --pid=host --volume /:/host  metrics cpu<br/>
 
 
-######--pid=host : allows the containers to use the processus tree of the Docker host (the VM in which the Docker daemon is running)
-
-
